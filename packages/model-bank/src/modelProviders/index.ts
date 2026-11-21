@@ -1,6 +1,7 @@
 import { ENABLE_BUSINESS_FEATURES } from '@lobechat/business-const';
 
 import type { ChatModelCard, ModelProviderCard } from '../types';
+import Provider321ai from './321ai';
 import Ai21Provider from './ai21';
 import Ai302Provider from './ai302';
 import Ai360Provider from './ai360';
@@ -192,6 +193,7 @@ export const DEFAULT_MODEL_PROVIDER_LIST = [
   NovitaProvider,
   PPIOProvider,
   Ai302Provider,
+  Provider321ai,
   NvidiaProvider,
   TogetherAIProvider,
   TypeSafeProvider,
