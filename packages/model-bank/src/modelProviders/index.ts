@@ -313,6 +313,7 @@ export const isProviderOAuthDeviceFlow = (id?: string) =>
     (provider) => provider.id === id && provider.settings?.authType === 'oauthDeviceFlow',
   );
 
+export { default as Provider321aiCard } from './321ai';
 export { default as Ai21ProviderCard } from './ai21';
 export { default as Ai302ProviderCard } from './ai302';
 export { default as Ai360ProviderCard } from './ai360';
